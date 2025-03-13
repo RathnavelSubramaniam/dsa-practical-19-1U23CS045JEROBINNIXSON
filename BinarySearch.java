@@ -17,8 +17,7 @@ else
 System.out.println("Enter integer numbers only");
 System.exit(0);
  } }
-System.out.println("ENTER THE KEY VALUE TO BE SEARCHED IN BINARY SEARCH
-LIST");
+System.out.println("ENTER THE KEY VALUE TO BE SEARCHED IN BINARY SEARCHLIST");
 int key = in.nextInt();
 int res=BinarySearchIterative(numbers,key);
 if(res==-1)
